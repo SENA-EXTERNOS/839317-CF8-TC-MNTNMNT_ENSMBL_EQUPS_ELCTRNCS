@@ -38,7 +38,7 @@
 
     p.mb-5 A continuación, se presentan algunos de los elementos y pruebas más comunes usadas para el diagnóstico de tarjetas electrónicas.
 
-    .row.mb-5
+    .row.mb-5(data-aos='fade-up-right')
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
           .row.justify-content-center.mb-3
@@ -104,14 +104,14 @@
 
     .row.mb-5
       .col-lg-2 
-        img(src='@/assets/template/tema03/t3-i3.svg', alt='AvatarTop')
+        img(src='@/assets/template/tema03/t3-i3.svg', alt='AvatarTop')(data-aos='zoom-in')
       .col-lg-10
         p Pese a que las comparaciones de los datos resultan de gran ayuda en la interpretación de los resultados, no siempre se pueden hacer debido a diversos factores; entre ellos, la falta de equipos similares o la adquisición de un único dispositivo. Dado lo anterior, es muy importante conocer qué tipo de pruebas existen con el fin de poder realizar una correcta interpretación de los datos obtenidos y proceder de la mejor manera.
 
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Tipos de prueba
 
-    .row.flex.justify-content-center.mb-5
+    .row.flex.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-10
         .row 
           .col-lg-10.p-5.caja-03
@@ -124,7 +124,7 @@
 
     p.mb-5 A continuación, se presentan algunos tipos de prueba que ayudan al diagnóstico de las tarjetas electrónicas:
 
-    .row.d-flex.justify-content-center.mb-5
+    .row.d-flex.justify-content-center.mb-5(data-aos='flip-left')
       .col-md-8
         ImagenInfograficaB.color-primario
           template(v-slot:imagen)

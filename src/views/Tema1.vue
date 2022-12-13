@@ -7,7 +7,7 @@
         span 1
       h1 Genéricos y especializados
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='zoom-in')
       .col-11
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -17,7 +17,7 @@
             p.mb-0 En ocasiones, debido a malos procedimientos de manejo, instalación o diseño, es necesario realizar algún tipo de procedimiento en búsqueda de fallas o averías en las tarjetas electrónicas de los equipos presentes en el área de trabajo. La localización de imprevistos es de suma importancia dada la necesidad de aplicar alguno de los procesos mencionados en el componente formativo&nbsp;
               i Diagnóstico de equipos electrónicos.
 
-    .row.flex.justify-content-center.mb-5
+    .row.flex.justify-content-center.mb-5(data-aos='fade-down')
       .col-lg-11
         .row 
           .col-lg-10.p-4.caja-01

@@ -7,7 +7,7 @@
         span 4
       h1 Procedimientos técnicos y normativos
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-11
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -18,7 +18,7 @@
 
     p.mb-5 Los procedimientos y técnicas de retrabajo tienen unas características especiales; a continuación, se enuncian algunas de ellas:
 
-    .slyderB_bg_02.tarjeta.tarjeta--gris.p-5.mb-5
+    .slyderB_bg_02.tarjeta.tarjeta--gris.p-5.mb-5(data-aos='zoom-in')
       PasosB.color-acento-botones
         .row.p-5(titulo='')
           .col-lg-8
@@ -95,7 +95,7 @@
 
     .row.mb-5
       .col-lg-2 
-        img(src='@/assets/template/tema04/t4-i3.svg' alt='AvatarTop')
+        img(src='@/assets/template/tema04/t4-i3.svg' alt='AvatarTop')(data-aos='zoom-in')
       .col-lg-10
         p A la hora de realizar procesos de retrabajo a una tarjeta electrónica, casi siempre estamos hablando de cambiar algún tipo de componente electrónico de la misma. Este tipo de intervención resulta crítico en el dispositivo dado que es necesario exponer a cambios de temperatura el aparato electrónico; tanto para el retiro del componente como para la instalación del nuevo elemento. 
 

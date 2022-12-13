@@ -7,7 +7,7 @@
         span 2
       h1 Documentos de procesos
 
-    .row.flex.justify-content-center.mb-5
+    .row.flex.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-11
         .row 
           .col-lg-2
@@ -21,7 +21,7 @@
 
     p.mb-5 A continuación, se presentan los elementos que deben ser considerados en la documentación de procesos:
 
-    SlyderF.mb-5(columnas='col-lg-6 col-xl-4')
+    SlyderF.mb-5(columnas='col-lg-6 col-xl-4')(data-aos='fade-left')
       .tarjeta.color-01.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -67,14 +67,14 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Elementos indispensables para la documentación de procesos
 
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos='zoom-in')
       .bloque-texto-g__img(
         :style='{ "background-image": `url(${require("@/assets/template/tema02/t2-i7.png")})` }'
       )
       .bloque-texto-g__texto.py-4.px-4
         p.mb-0 La documentación dentro de una organización resulta muy importante a la hora de tomar decisiones. No obstante, antes de realizar cualquier tipo de proceso, se deben tener los datos ya que estos son fundamentales. El video que se presenta a continuación detalla cada uno de los elementos indispensables en la documentación de procesos.
 
-    figure.mb-5
+    figure.mb-5(data-aos='fade-right')
       .video
         iframe(
           width='560',
@@ -86,7 +86,7 @@
           allowfullscreen
         ) 
 
-    .row.mb-5.f-caja-02
+    .row.mb-5.f-caja-02(data-aos='fade-up-right')
       .col-lg-12
         .row.justify-content-center
           .col-lg-11.s-card-01
@@ -144,7 +144,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Hoja de vida y servicio
 
-    .row.flex.justify-content-center.mb-5
+    .row.flex.justify-content-center.mb-5(data-aos='fade-up-left')
       .col-lg-11
         .row 
           .col-lg-10.p-4.caja-01
@@ -161,11 +161,11 @@
 
     .row.mb-5
       .col-lg-2 
-        img(src='@/assets/template/tema02/t2-i8.svg', alt='AvatarTop')
+        img(src='@/assets/template/tema02/t2-i8.svg', alt='AvatarTop')(data-aos='zoom-in')
       .col-lg-10
         p Debido a que cada organización o empresa tiene sus propias plantillas, respecto a la hoja de servicio de un equipo, resulta difícil poder proporcionar una estructura general. A continuación, se muestran los datos mínimos que debe llevar este tipo de documento.
 
-    .slyderB_bg_02.tarjeta.tarjeta--gris.p-5
+    .slyderB_bg_02.tarjeta.tarjeta--gris.p-5(data-aos='flip-left')
       PasosB.color-acento-botones
         .row.p-5(titulo='')
           .col-lg-8
