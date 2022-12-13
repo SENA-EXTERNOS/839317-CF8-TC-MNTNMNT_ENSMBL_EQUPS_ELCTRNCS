@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Reparación de tarjetas electrónicas',
+    descripcionCurso:
+      'La reparación de tarjetas electrónicas es de suma importancia dentro de una empresa, ya que logra devolverle al área productiva, equipos o dispositivos. Este tipo de intervenciones logra reducir los desechos electrónicos disminuyendo la contaminación ambiental y minimizando costos. Para ello, se brinda información para la interpretación de los resultados proporcionados por las herramientas de medición, la captura de datos, almacenamiento, diagnóstico e intervención de las tarjetas electrónicas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,14 +37,38 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Genéricos y especializados',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Multímetro',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Firmas digitales y oscilogramas',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Voltaje e intensidad',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Fuentes inteligentes',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Osciloscopio',
+            hash: 't_1_5',
           },
         ],
       },
@@ -48,8 +77,23 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Documentos de procesos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo:
+              'Elementos indispensables para la documentación de procesos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Hoja de vida y servicio',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -57,6 +101,53 @@ export default {
         numero: '3',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Diagnóstico',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Comparación y contraste',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Tipos de prueba',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Procedimiento y técnicas de retrabajo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Imperfecciones físicas',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Cambio de componentes',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Cambio de pistas y soldaduras',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +192,137 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Editores de Documentos de Google',
+      referencia:
+        'Editores de Documentos de Google. (s.f). <em>Cómo usar Documentos de Google.</em>Recuperado 29 de septiembre de 2022.',
+      tipo: 'Web',
+      link:
+        'https://support.google.com/docs/answer/7068618?hl=es-419&co=GENIE.Platform%3DDesktop',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Genéricos y especializado',
+      referencia:
+        'Donado, A. (1 de septiembre de 2020). Análisis Técnico sobre el USO de un Osciloscopio Automotriz [Web log post]. <em>Autosoporte..</em>',
+      tipo: 'Blog',
+      link:
+        'https://autosoporte.com/analisis-tecnico-del-uso-del-osciloscopio-automotriz/',
+    },
+    {
+      tema: 'Ofimática libre',
+      referencia:
+        'LibreOffice. (s.f.). <em>Suite ofimática libre, basada en OpenOffice, compatible con Microsoft. Recuperado 29 de septiembre de 2022.</em>',
+      tipo: 'Web',
+      link: 'https://es.libreoffice.org/',
+    },
+    {
+      tema: 'Office de Microsoft 365',
+      referencia:
+        'Microsoft. (s. f.). <em>Suscripción a las aplicaciones de Office de Microsoft 365.</em> Recuperado 29 de septiembre de 2022.',
+      tipo: 'Web',
+      link: 'https://www.microsoft.com/es-es/microsoft-365',
+    },
+    {
+      tema: 'Procedimiento y técnicas de retrabajo',
+      referencia:
+        'JYSAPARTS.  (2021, 8 marzo). <em>Reconstrucción de pistas rotas, dañadas o cortadas, reparación paso a paso, proceso manual.</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=whs2XAWdKUs',
+    },
+    {
+      tema: 'Procedimiento y técnicas de retrabajo',
+      referencia:
+        'Galán, L. (25 de noviembre de 2019). <em>Curso básico de soldadura electrónica. Herramientas y técnicas.</em>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=snM_ABjXGsw',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Cautín',
+      significado:
+        'Herramienta que permite soldar elementos mediante la fundición de materiales.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Ciclo',
+      significado:
+        'Un ciclo dentro de una señal es la longitud de la señal o el tramo que se repite constantemente a lo largo del tiempo.',
+    },
+    {
+      termino: 'Circuito',
+      significado:
+        'Es la conexión de componentes dentro de una trayectoria cerrada por la cual puede fluir una corriente eléctrica.',
+    },
+    {
+      termino: 'Componentes BGA',
+      significado:
+        'Este tipo de elemento se caracteriza por tener dentro de un área o encapsulado una determinada densidad de componentes electrónicos, por ejemplo, lis <em>chipsets</em> o procesadores.',
+    },
+    {
+      termino: 'Componentes SMD',
+      significado:
+        'Componentes que se adhieren a una placa electrónica sin la necesidad de orificios, permiten de esta manera una reducción significativa en su tamaño.',
+    },
+    {
+      termino: 'Componentes THT',
+      significado:
+        'Los componentes THT son todos aquellos elementos que necesitan de orificios en una tarjeta electrónica para su ensamble, su identificación es relativamente fácil dada las características de sim instalación y a su gran tamaño en comparación a otro tipo de encapsulados.',
+    },
+    {
+      termino: 'Imperfección',
+      significado:
+        'Defectos provocados por malos procedimientos o prácticas dentro de los diferentes procesos de un equipo electrónico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alcalde, P. (2016). <em>Electrónica aplicada: electricidad - electrónica. </em>Editorial Paraninfo.',
       link: '',
+    },
+    {
+      referencia:
+        'Altium. (5 de abril de 2017). <em>Las mejores prácticas de diseño y fabricación para la protección de circuitos electrónicos contra la humedad</em>',
+      link:
+        'https://resources.altium.com/es/p/the-best-pcb-design-and-manufacturing-practices-for-moisture-management',
+    },
+    {
+      referencia:
+        'FLUKE.  (s.f.). ¿Qué es un multímetro digital? <em>Fluke.</em> ',
+      link:
+        'https://www.fluke.com/es-co/informacion/blog/electrica/que-es-un-multimetro-digital#:%7E:text=Un%20mult%C3%ADmetro%20digital%20(DMM)%20es,las%20industrias%20el%C3%A9ctricas%20y%20electr%C3%B3nicas',
+    },
+    {
+      referencia: 'INGUN. (s.f.). <em>Test Probes for ICT and FCT.</em>',
+      link:
+        'https://ingun.com/en-GB/products/test-probes/ict-fct-in-circuit-test-and-function-test/',
+    },
+    {
+      referencia:
+        'Jacks, D. (s.f.). <em>Retrabajo de SMD, retrabajo de BGA, SMT, equipo para soldar y desoldar integrados, herramientas y suministros.</em>',
+      link: 'https://zeph.com/public_html/spanish/tech_1.html',
+    },
+    {
+      referencia:
+        'Proto-Electronics. (s. f.). <em>Montaje del PCB: los componentes más críticos y vulnerables. </em>',
+      link:
+        'https://www.proto-electronics.com/es/blog/montaje-pcb-componentes-criticos-vulnerables',
+    },
+    {
+      referencia:
+        'Proto-Electronics. (s.f.). <em>¿Cómo encontrar defectos en un PCB?</em>',
+      link:
+        'https://www.proto-electronics.com/es/blog/c%C3%B3mo-encontrar-defectos-en-un-pcb',
+    },
+    {
+      referencia:
+        'Santander Universidades. (1 de abril de 2022). Herramientas ofimáticas: qué son, tipos y ejemplos [Web log post]. <em>| Becas Santander.</em>',
+      link:
+        'https://www.becas-santander.com/es/blog/herramientas-ofimaticas.html',
+    },
+    {
+      referencia:
+        'Wow. (22 de febrero de 2022).<em> Qué es un diagrama de causa y efecto. ¿Cuál es su utilidad?</em> ',
+      link: 'https://www.wowcx.com/que-es-un-diagrama-de-causa-y-efecto/',
     },
   ],
   creditos: {
