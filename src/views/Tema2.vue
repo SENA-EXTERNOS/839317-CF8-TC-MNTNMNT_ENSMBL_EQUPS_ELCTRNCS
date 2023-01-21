@@ -64,15 +64,14 @@
         h2.text-center Documentar el proceso
         p.text-center Con cada uno de los pasos anteriores ejecutados, es hora de iniciar la documentación de procesos. A continuación, se presentan los conceptos asociados con la generación de documentos del proceso de reparación de tarjetas electrónicas.
 
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Elementos indispensables para la documentación de procesos
+    h4 Elementos indispensables para la documentación de procesos
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos='zoom-in')
       .bloque-texto-g__img(
         :style='{ "background-image": `url(${require("@/assets/template/tema02/t2-i7.png")})` }'
       )
       .bloque-texto-g__texto.py-4.px-4
-        p.mb-0 La documentación dentro de una organización resulta muy importante a la hora de tomar decisiones. No obstante, antes de realizar cualquier tipo de proceso, se deben tener los datos ya que estos son fundamentales. El video que se presenta a continuación detalla cada uno de los elementos indispensables en la documentación de procesos.
+        p.mb-0 La documentación, dentro de una organización, resulta ser muy importante a la hora de tomar decisiones. No obstante, antes de realizar cualquier tipo de procedimiento, se deben tener los datos, porque estos son fundamentales para aportar información requerida. El video que se presenta a continuación, detalla cada uno de los elementos indispensables en la documentación de procesos.
 
     figure.mb-5(data-aos='fade-right')
       .video
@@ -101,48 +100,9 @@
                   i software,&nbsp;
                   | a la hora de gestionar la documentación de todos los procesos realizados o planeados para la verificación o mantenimiento de las tarjetas electrónicas, se presentan los principales proveedores de&nbsp;
                   i software ofimáticos: Office 365, Libreoffice y Google docs.&nbsp;
-                  | De los anteriores se destacan los dos últimos gracias a sus prestaciones y a la posibilidad de adquirirlos bajo ningún costo. En los siguientes materiales de apoyo se conocerán más en detalle, todos los servicios que brindan estos proveedores de herramientas ofimáticas:
+                  | De los anteriores se destacan los dos últimos gracias a sus prestaciones y a la posibilidad de adquirirlos bajo ningún costo. 
 
-                ol.lista-ol--cuadro.fz-14
-                  li.justify-content-between
-                    .div
-                      .lista-ol--cuadro__vineta
-                        span 1
-                      i Microsoft. (s. f.). Suscripción a las aplicaciones de Office de Microsoft 365.
-                    .col-auto
-                      a.boton.boton--b(
-                        href="https://www.microsoft.com/es-es/microsoft-365",
-                        target='_blank'
-                      )
-                        span Enlace Web
-                        i.fas.fa-puzzle-piece
-                  li.justify-content-between
-                    .div
-                      .lista-ol--cuadro__vineta
-                        span 2
-                      i LibreOffice en español
-                    .col-auto
-                      a.boton.boton--b(
-                        href="https://es.libreoffice.org/",
-                        target='_blank'
-                      )
-                        span Enlace Web
-                        i.fas.fa-puzzle-piece 
-                  li.justify-content-between
-                    .div
-                      .lista-ol--cuadro__vineta
-                        span 3
-                      | Cómo usar Documentos de Google
-                    .col-auto
-                      a.boton.boton--b(
-                        href="https://support.google.com/docs/answer/7068618?hl=es-419&co=GENIE.Platform%3DDesktop",
-                        target='_blank'
-                      )
-                        span Enlace Web
-                        i.fas.fa-puzzle-piece 
-
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Hoja de vida y servicio
+    h4 Hoja de vida y servicio
 
     .row.flex.justify-content-center.mb-5(data-aos='fade-up-left')
       .col-lg-11
@@ -163,9 +123,9 @@
       .col-lg-2 
         img(src='@/assets/template/tema02/t2-i8.svg', alt='AvatarTop')(data-aos='zoom-in')
       .col-lg-10
-        p Debido a que cada organización o empresa tiene sus propias plantillas, respecto a la hoja de servicio de un equipo, resulta difícil poder proporcionar una estructura general. A continuación, se muestran los datos mínimos que debe llevar este tipo de documento.
+        p Debido a que cada organización o empresa tiene sus propias plantillas con respecto a la hoja de servicio de un equipo, resulta complicado proporcionar una estructura general. A continuación, se muestran los datos mínimos que debe llevar este tipo de documento:
 
-    .slyderB_bg_02.tarjeta.tarjeta--gris.p-5(data-aos='flip-left')
+    .slyderB_bg_02.tarjeta.tarjeta--gris.p-5(data-aos='fade-left')
       PasosB.color-acento-botones
         .row.p-5(titulo='')
           .col-lg-8

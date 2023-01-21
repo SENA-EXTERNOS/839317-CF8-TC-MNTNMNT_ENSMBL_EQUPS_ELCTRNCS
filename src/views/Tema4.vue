@@ -55,16 +55,11 @@
     
               
 
-    #t_4_1.titulo-segundo.color-acento-contenido
-      h2 4.1 Imperfecciones físicas
+    h4 Imperfecciones físicas
 
     p Con los procesos de diseño, fabricación y ensamble de equipos electrónicos, cada una de las tarjetas electrónicas es propensa o sensible a diferentes factores físicos que pueden causar imperfecciones en la estructura de la misma o a la de los componentes electrónicos.
     p.mb-5 A continuación, se presentan algunos de los elementos que deben ser revisados en lo que se refiere a las imperfecciones físicas:
 
-
-    .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 1.
-      i Imperfecciones físicas
 
     .col-md-12.mb-5
       ImagenInfografica.color-transparent(data-aos='zoom-in')
@@ -90,10 +85,9 @@
             | electricidad, en los que podrá encontrar una definición más precisa y una descripción de las partes u opciones que posee un osciloscopio de forma general.      
 
 
-    #t_4_2.titulo-segundo.color-acento-contenido
-      h2 4.2 Cambio de componentes
+    h4 Cambio de componentes
 
-    .row.mb-5
+    .row.my-5
       .col-lg-2 
         img(src='@/assets/template/tema04/t4-i3.svg' alt='AvatarTop')(data-aos='zoom-in')
       .col-lg-10
@@ -115,25 +109,24 @@
               | que se desarrolla en este componente y la documentación suministrada por el fabricante para no averiar el elemento a instalar. Es necesario aplicar todas las recomendaciones realizadas en el montaje inicial para mantener la integridad de la tarjeta, (¿Cómo encontrar defectos en un PCB?, s. f.) 
 
      
-    #t_4_3.titulo-segundo.color-acento-contenido
-      h2 4.3 Cambio de pistas y soldaduras     
+    h4 Cambio de pistas y soldaduras     
 
-    .row.mb-5
+    .row.my-5
       .col-lg-7
         .row
           .col-lg-12
             p Para poder usar las tarjetas electrónicas, dentro de una empresa sin tener inconvenientes relacionados al mal diseño, montaje o reparación de las mismas, es necesario que cada uno de los integrantes del área de mantenimiento siga las recomendaciones técnicas mínimas que se establecen para una correcta aplicación de soldadura en cada uno de los elementos usados en el proceso de montaje o retrabajo.
-            p A continuación, se presentan algunos de los criterios que establecen las condiciones físicas mínimas en las cuales debe oscilar una adecuada aplicación de soldadura como el grosor, la cantidad de desplazamiento sobre los ejes de la tarjeta, longitud y altura. Cada uno de estos parámetros varía en función del tipo elemento y proceso; de ahí, la importancia de identificar la clase de elemento que se va a instalar.  
+            p A continuación, se presentan algunos de los criterios que establecen las condiciones físicas mínimas en las cuales debe oscilar una adecuada aplicación de soldadura, como el grosor, la cantidad de desplazamiento sobre los ejes de la tarjeta, longitud y altura. Cada uno de estos parámetros varía en función del tipo de elemento y proceso; de ahí, la importancia de identificar la clase de elemento que se va a instalar: 
       .col-lg-5
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema04/t4-i4.svg')   
           
     .row.mb-5
       .col-lg-8.order-2.order-lg-1
-        TabsA.color-secundario.fz-10.mb-5 
-          .tarjeta.clr-paleYellow.p-4(titulo='Cambios de temperatura')
+        TabsA.color-secundario.mb-5 
+          .tarjeta.clr-paleYellow.p-4(titulo='Cambios de<br> temperatura')
             p Los cambios de temperatura pueden llegar a ocasionar grandes daños dentro de una tarjeta electrónica siendo uno de los más comunes el levantamiento o corte de una pista, al ser este elemento el responsable de comunicar o servir de vía para la corriente eléctrica. Es crucial, resolver este problema antes de proceder con otra actividad dado que, si no se resuelve, la tarjeta será obsoleta y gastaremos tiempo en reparaciones innecesarias.
-          .tarjeta.clr-paleYellow.p-4(titulo='Modificación de la tarjeta')
+          .tarjeta.clr-paleYellow.p-4(titulo='Modificación de<br> la tarjeta')
             p Aunque no es recomendable que un profesional modifique o vulnere la integridad de una tarjeta para poder conectar una pista rota, en ocasiones, dados los altos costos o la desaparición del fabricante, un técnico de mantenimiento debe enfrentarse a este tipo de imprevistos. 
 
           .tarjeta.clr-paleYellow.p-4(titulo='Experticia')
@@ -149,16 +142,11 @@
             style='width: 450px'
           )                        
 
-    .row.justify-content-center
-      .col-lg-8
-        .row 
-          .col-lg-6
-            figure(data-aos='zoom-in')
-              img(src='@/assets/template/tema04/t4-i6.svg') 
-          .col-lg-6
-            p
-              strong.color-primario ¡Excelente!&nbsp;
-              | Ha finalizado el estudio de este componente formativo a través del cual ha aprendido sobre la reparación de tarjetas electrónicas. Ahora lo invitamos a estudiar la síntesis donde se recuerda, de forma general, los saberes que se han desarrollado y realizar la actividad de aprendizaje donde se coloca a prueba lo aprendido. Consulte el material complementario que le sirve como refuerzo y profundización.  
+    .row.justify-content-center.align-items-center 
+      .col-lg-3
+        img.img-a.img-t(src='@/assets/template/tema04/t4-i6.svg') 
+      .col-lg-5
+        p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, material complementario, entre otros. Adicional, lo invitamos a resolver la actividad didáctica para reforzar los conceptos estudiados.
    
 
 </template>

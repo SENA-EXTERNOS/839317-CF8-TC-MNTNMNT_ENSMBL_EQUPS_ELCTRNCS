@@ -19,10 +19,9 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema03/t3-i1.svg') 
 
-    #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1 Diagnóstico
+    h4 Diagnóstico
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.my-5
       .col-lg-10(data-aos='zoom-in')
         .bloque-derecha
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
@@ -36,7 +35,7 @@
                 i pin&nbsp;
                 | o elemento por elemento.
 
-    p.mb-5 A continuación, se presentan algunos de los elementos y pruebas más comunes usadas para el diagnóstico de tarjetas electrónicas.
+    p.mb-5 Se presentan algunos de los elementos y pruebas más comunes, utilizadas para el diagnóstico de tarjetas electrónicas:
 
     .row.mb-5(data-aos='fade-up-right')
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -46,10 +45,10 @@
               figure
                 img(
                   src='@/assets/template/tema03/t3-i5.svg',
-                  alt='Texto que describa la imagen'
+                  alt=''
                 )
 
-          p.text-small.text-center En la mayoría de las ocasiones, las tarjetas electrónicas suelen estar compuestas por cientos de componentes dificultando la localización del problema específico de un aparato electrónico.
+          p.text-center En la mayoría de las ocasiones, las tarjetas electrónicas suelen estar compuestas por cientos de componentes dificultando la localización del problema específico de un aparato electrónico.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
@@ -58,10 +57,10 @@
               figure
                 img(
                   src='@/assets/template/tema03/t3-i6.svg',
-                  alt='Texto que describa la imagen'
+                  alt=''
                 )
 
-          p.text-small.text-center Resulta muy cómodo, por medio de las firmas digitales de voltaje y corriente, encontrar que secciones de una tarjeta no están funcionando de manera correcta.
+          p.text-center Resulta muy cómodo, por medio de las firmas digitales de voltaje y corriente, encontrar que secciones de una tarjeta no están funcionando de manera correcta.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
@@ -70,10 +69,10 @@
               figure
                 img(
                   src='@/assets/template/tema03/t3-i7.svg',
-                  alt='Texto que describa la imagen'
+                  alt=''
                 )
 
-          p.text-small.text-center Inyectar pequeñas señales sobre los bloques funcionales a examinar y al verificar si su respuesta es la adecuada, se podrá sectorizar la zona que se debe reparar o corregir.
+          p.text-center Inyectar pequeñas señales sobre los bloques funcionales a examinar y al verificar si su respuesta es la adecuada, se podrá sectorizar la zona que se debe reparar o corregir.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
@@ -82,13 +81,12 @@
               figure
                 img(
                   src='@/assets/template/tema03/t3-i8.svg',
-                  alt='Texto que describa la imagen'
+                  alt=''
                 )
 
-          p.text-small.text-center Una de las estrategias, que también es muy conocida dentro del diagnóstico de las tarjetas electrónicas, es la inspección visual. Este tipo de proceso ayuda a los profesionales a identificar qué tipo de sectores del dispositivo se encuentran con afectaciones claras como quemaduras, pistas con defectos, componentes mal ubicados, humedades, etc.
+          p.text-center Una de las estrategias, que también es muy conocida dentro del diagnóstico de las tarjetas electrónicas, es la inspección visual. Este tipo de proceso ayuda a los profesionales a identificar qué tipo de sectores del dispositivo se encuentran con afectaciones claras como quemaduras, pistas con defectos, componentes mal ubicados, humedades, etc.
 
-    #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2 Comparación y contraste
+    h4 Comparación y contraste
 
     .row.mb-5
       .col-lg-7
@@ -108,8 +106,7 @@
       .col-lg-10
         p Pese a que las comparaciones de los datos resultan de gran ayuda en la interpretación de los resultados, no siempre se pueden hacer debido a diversos factores; entre ellos, la falta de equipos similares o la adquisición de un único dispositivo. Dado lo anterior, es muy importante conocer qué tipo de pruebas existen con el fin de poder realizar una correcta interpretación de los datos obtenidos y proceder de la mejor manera.
 
-    #t_3_3.titulo-segundo.color-acento-contenido
-      h2 3.3 Tipos de prueba
+    h4 Tipos de prueba
 
     .row.flex.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-10
@@ -122,7 +119,7 @@
                 figure.pa-caja-03
                   img(src='@/assets/template/tema03/t3-i9.svg') 
 
-    p.mb-5 A continuación, se presentan algunos tipos de prueba que ayudan al diagnóstico de las tarjetas electrónicas:
+    p.mb-5 Observe algunos tipos de pruebas que ayudan con el diagnóstico de las tarjetas electrónicas:
 
     .row.d-flex.justify-content-center.mb-5(data-aos='flip-left')
       .col-md-8
@@ -131,7 +128,7 @@
             figure
               img(
                 src='@/assets/template/tema03/t3-i10.svg',
-                alt='Texto que describa la imagen'
+                alt=''
               )
 
           div(x='21%', y='47%', tooltip='Inspección visual', numero='1')

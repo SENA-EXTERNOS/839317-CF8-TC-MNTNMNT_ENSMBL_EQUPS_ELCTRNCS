@@ -8,18 +8,18 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p Apreciado aprendiz, sea bienvenido a este recurso educativo que está orientado a la reparación de tarjetas electrónicas. Con el desarrollo de este componente formativo, aprenderá sobre los elementos genéricos y especializados, documentos de procesos, procedimientos técnicos y normativos, entre otros. Finalmente, podrá identificar los procedimiento y técnicas de retrabajo.
-        p En el siguiente video conocerá, de manera general, los saberes que se desarrollan a lo largo de este ciclo formativo.
-        p.color-primario Le deseamos una grata experiencia de aprendizaje.
+        p Apreciado aprendiz, bienvenido a este componente formativo, con una temática orientada hacia la reparación de tarjetas electrónicas. Se aprenderá sobre los elementos genéricos y especializados, documentos de procesos, procedimientos técnicos y normativos, entre otros. Finalmente, podrá identificar los procedimientos y técnicas de retrabajo.
+
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.        
       .col-lg-4
         figure(data-aos='zoom-in')
           img(
             src='@/assets/template/introduccion/t-i1.svg',
           )      
 
-    .col-12.mb-5
+    .col-12
       figure
         .video
           iframe(

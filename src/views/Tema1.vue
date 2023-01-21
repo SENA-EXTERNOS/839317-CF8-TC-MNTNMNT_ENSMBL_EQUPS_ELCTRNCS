@@ -32,10 +32,7 @@
                 figure.pa-caja-01
                   img(src='@/assets/template/tema01/t1-i7.svg')
 
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Multímetro
-
-    p.mb-5 La primera herramienta que se debe conocer es el multímetro. Este dispositivo es uno de los más frecuentes dentro de un laboratorio, dada su capacidad de medir o monitorear múltiples variables eléctricas; de ahí su nombre.
+    p.mb-5 La primera herramienta que se debe conocer es el multímetro. Este dispositivo es uno de los más frecuentemente utilizados dentro de un laboratorio, dada su capacidad de medir o monitorear múltiples variables eléctricas; de ahí su nombre.
 
     .row.d-flex.justify-content-center.mb-5
       .col-md-6
@@ -61,8 +58,7 @@
               i ¿Qué es un multímetro digital? y Electrónica aplicada:&nbsp;
               | electricidad, en los que podrá encontrar una definición más precisa y una descripción de las partes u opciones que posee un osciloscopio de forma general.
 
-    #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Firmas digitales y oscilogramas
+    h4 Firmas digitales y oscilogramas
 
     .row.mb-5
       .col-lg-7
@@ -76,11 +72,10 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema01/t1-i4.svg') 
 
-    #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3 Voltaje e intensidad
+    h4 Voltaje e intensidad
 
     p El registro o firmas de voltaje e intensidad, dentro de los diagnósticos de una tarjeta electrónica, resultan una herramienta extremadamente útil dada la importancia que tienen estas dos variables en el funcionamiento de un dispositivo electrónico.
-    p.mb-5 En consecuencia, es pertinente conocer las diferentes propiedades que pueden tener este tipo de señales dentro de un oscilograma.
+    p.mb-5 Por lo tanto, es fundamental conocer las diferentes propiedades que pueden tener este tipo de señales, dentro de un oscilograma:
 
     .tarjeta.slyderB_bg_01.p-5.mb-5(data-aos='zoom-in-right')
       SlyderA(tipo='b')
@@ -93,7 +88,7 @@
             figure(data-aos='zoom-in')
               img(
                 src='@/assets/template/tema01/slider01/s1-i1.svg',
-                alt='Texto que describa la imagen'
+                alt=''
               ) 
         .row
           .col-md-7.mb-4.mb-md-0.py-5
@@ -104,7 +99,7 @@
             figure(data-aos='zoom-in')
               img(
                 src='@/assets/template/tema01/slider01/s1-i2.svg',
-                alt='Texto que describa la imagen'
+                alt=''
               ) 
         .row
           .col-md-7.mb-4.mb-md-0.py-5
@@ -115,7 +110,7 @@
             figure(data-aos='zoom-in')
               img(
                 src='@/assets/template/tema01/slider01/s1-i3.svg',
-                alt='Texto que describa la imagen'
+                alt=''
               ) 
         .row
           .col-md-7.mb-4.mb-md-0.py-5
@@ -126,7 +121,7 @@
             figure(data-aos='zoom-in')
               img(
                 src='@/assets/template/tema01/slider01/s1-i4.svg',
-                alt='Texto que describa la imagen'
+                alt=''
               ) 
         .row
           .col-md-7.mb-4.mb-md-0.py-5
@@ -137,7 +132,7 @@
             figure(data-aos='zoom-in')
               img(
                 src='@/assets/template/tema01/slider01/s1-i5.svg',
-                alt='Texto que describa la imagen'
+                alt=''
               ) 
         .row
           .col-md-7.mb-4.mb-md-0.py-5
@@ -148,11 +143,10 @@
             figure(data-aos='zoom-in')
               img(
                 src='@/assets/template/tema01/slider01/s1-i6.svg',
-                alt='Texto que describa la imagen'
+                alt=''
               ) 
 
-    #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4 Fuentes inteligentes
+    h4 Fuentes inteligentes
 
     .row.mb-5
       .col-lg-5
@@ -166,18 +160,17 @@
             .cajon.card-bg-acento-contenido.p-4
               p.mb-0 Este tipo de dispositivos, dependiendo de su configuración, aseguran una alta precisión en los valores suministrados y confiabilidad a la hora de realizar los procesos, permitiendo tener altas protecciones contra sobrecargas, sobretensiones, controles de temperatura, controles de polarización, etc.
 
-    #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5 Osciloscopio
+    h4 Osciloscopio
 
     p En una sección anterior, se dijo que los oscilogramas permiten a los técnicos de mantenimiento diagnosticar y elegir el mejor procedimiento a realizar para corregir o verificar el estado de una placa electrónica. Dado la importancia de lo anterior, es necesario conocer la herramienta que permite la obtención de toda esa información.
     p.mb-5 A continuación, se presentan algunos de los elementos representativos de los osciloscopios:
 
     .row
       .col-lg-8.order-2.order-lg-1
-        TabsA.color-secundario.fz-12.mb-5 
+        TabsA.color-secundario.mb-5 
           .tarjeta.clr-paleYellow.p-4(titulo='¿Qué es?')
             p El osciloscopio es una herramienta electrónica que permite monitorear diversas variables a lo largo del tiempo para observar su comportamiento.
-          .tarjeta.clr-paleYellow.p-4(titulo='¿Cuál es su función?')
+          .tarjeta.clr-paleYellow.p-4(titulo='¿Cuál es su<br> función?')
             p Alcalde, P. (2016), define la función del osciloscopio como “lo que hace un osciloscopio es mostrar en su pantalla la forma que posee una determinada tensión o corriente eléctrica. Es decir, representa en un eje de coordenadas las variaciones de estas magnitudes en función del tiempo” (p. 141).
           .tarjeta.clr-paleYellow.p-4(titulo='Importante')
             p Dada la importancia que posee este tipo de herramienta a la hora de verificar y diagnosticar, no solo tarjetas electrónicas sino también los diferentes equipos presentes en el área de mantenimiento, se considera importante revisar y estudiar los contenidos de la página 142 del libro&nbsp;

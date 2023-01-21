@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Reparación de tarjetas electrónicas',
     descripcionCurso:
-      'La reparación de tarjetas electrónicas es de suma importancia dentro de una empresa, ya que logra devolverle al área productiva, equipos o dispositivos. Este tipo de intervenciones logra reducir los desechos electrónicos disminuyendo la contaminación ambiental y minimizando costos. Para ello, se brinda información para la interpretación de los resultados proporcionados por las herramientas de medición, la captura de datos, almacenamiento, diagnóstico e intervención de las tarjetas electrónicas.',
+      'La reparación de tarjetas electrónicas es de suma importancia dentro de una empresa, porque logra devolverle al área productiva, equipos o dispositivos. Este tipo de intervenciones puede disminuir los desechos electrónicos, reduciendo la contaminación ambiental y minimizando costos. Para esto, se brinda información para la interpretación de los resultados proporcionados por las herramientas de medición, la captura de datos, almacenamiento, diagnóstico e intervención de las tarjetas electrónicas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -39,38 +39,6 @@ export default {
         numero: '1',
         titulo: 'Genéricos y especializados',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Multímetro',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Firmas digitales y oscilogramas',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Voltaje e intensidad',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Fuentes inteligentes',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Osciloscopio',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -79,75 +47,20 @@ export default {
         numero: '2',
         titulo: 'Documentos de procesos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              'Elementos indispensables para la documentación de procesos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Hoja de vida y servicio',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Procedimientos técnicos y normativos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Diagnóstico',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Comparación y contraste',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Tipos de prueba',
-            hash: 't_3_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Procedimiento y técnicas de retrabajo',
+        titulo: 'Procedimientos y técnicas de retrabajo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Imperfecciones físicas',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Cambio de componentes',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Cambio de pistas y soldaduras',
-            hash: 't_4_3',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -192,46 +105,46 @@ export default {
   },
   complementario: [
     {
-      tema: 'Editores de Documentos de Google',
+      tema: 'Documentos de procesos',
       referencia:
-        'Editores de Documentos de Google. (s.f). <em>Cómo usar Documentos de Google.</em>Recuperado 29 de septiembre de 2022.',
+        'Editores de Documentos de Google. (s.f.). <i>Cómo usar Documentos de Google</i>.',
       tipo: 'Web',
       link:
         'https://support.google.com/docs/answer/7068618?hl=es-419&co=GENIE.Platform%3DDesktop',
     },
     {
-      tema: 'Genéricos y especializado',
+      tema: 'Documentos de procesos',
       referencia:
-        'Donado, A. (1 de septiembre de 2020). Análisis Técnico sobre el USO de un Osciloscopio Automotriz [Web log post]. <em>Autosoporte..</em>',
+        'Donado, A. (2020). <i>Análisis Técnico sobre el USO de un Osciloscopio Automotriz</i>.',
       tipo: 'Blog',
       link:
         'https://autosoporte.com/analisis-tecnico-del-uso-del-osciloscopio-automotriz/',
     },
     {
-      tema: 'Ofimática libre',
+      tema: 'Documentos de procesos',
       referencia:
-        'LibreOffice. (s.f.). <em>Suite ofimática libre, basada en OpenOffice, compatible con Microsoft. Recuperado 29 de septiembre de 2022.</em>',
+        'LibreOffice. (s.f.).<i> Suite ofimática libre, basada en OpenOffice, compatible con Microsoft</i>.',
       tipo: 'Web',
       link: 'https://es.libreoffice.org/',
     },
     {
-      tema: 'Office de Microsoft 365',
+      tema: 'Documentos de procesos',
       referencia:
-        'Microsoft. (s. f.). <em>Suscripción a las aplicaciones de Office de Microsoft 365.</em> Recuperado 29 de septiembre de 2022.',
+        'Microsoft. (s.f.). <i>Suscripción a las aplicaciones de Office de Microsoft 365.</i>',
       tipo: 'Web',
       link: 'https://www.microsoft.com/es-es/microsoft-365',
     },
     {
       tema: 'Procedimiento y técnicas de retrabajo',
       referencia:
-        'JYSAPARTS.  (2021, 8 marzo). <em>Reconstrucción de pistas rotas, dañadas o cortadas, reparación paso a paso, proceso manual.</em>',
+        'JYSAPARTS.  (2021). <i>Reconstrucción de pistas rotas, dañadas o cortadas, reparación paso a paso, proceso manual.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=whs2XAWdKUs',
     },
     {
       tema: 'Procedimiento y técnicas de retrabajo',
       referencia:
-        'Galán, L. (25 de noviembre de 2019). <em>Curso básico de soldadura electrónica. Herramientas y técnicas.</em>',
+        'Galán, L. (2019). <i>Curso básico de soldadura electrónica. Herramientas y técnicas.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=snM_ABjXGsw',
     },
