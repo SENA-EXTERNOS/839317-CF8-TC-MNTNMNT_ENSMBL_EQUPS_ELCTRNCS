@@ -40,49 +40,25 @@
     .row.mb-5(data-aos='fade-up-right')
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(
-                  src='@/assets/template/tema03/t3-i5.svg',
-                  alt=''
-                )
+          img.img-a.img-t.mb-5(src='@/assets/template/tema03/1.svg')
 
           p.text-center En la mayoría de las ocasiones, las tarjetas electrónicas suelen estar compuestas por cientos de componentes dificultando la localización del problema específico de un aparato electrónico.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(
-                  src='@/assets/template/tema03/t3-i6.svg',
-                  alt=''
-                )
+          img.img-a.img-t.mb-5(src='@/assets/template/tema03/2.svg')
 
           p.text-center Resulta muy cómodo, por medio de las firmas digitales de voltaje y corriente, encontrar que secciones de una tarjeta no están funcionando de manera correcta.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(
-                  src='@/assets/template/tema03/t3-i7.svg',
-                  alt=''
-                )
+          img.img-a.img-t.mb-5(src='@/assets/template/tema03/3.svg')
 
           p.text-center Inyectar pequeñas señales sobre los bloques funcionales a examinar y al verificar si su respuesta es la adecuada, se podrá sectorizar la zona que se debe reparar o corregir.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(
-                  src='@/assets/template/tema03/t3-i8.svg',
-                  alt=''
-                )
+          img.img-a.img-t.mb-5(src='@/assets/template/tema03/4.svg')
 
           p.text-center Una de las estrategias, que también es muy conocida dentro del diagnóstico de las tarjetas electrónicas, es la inspección visual. Este tipo de proceso ayuda a los profesionales a identificar qué tipo de sectores del dispositivo se encuentran con afectaciones claras como quemaduras, pistas con defectos, componentes mal ubicados, humedades, etc.
 
