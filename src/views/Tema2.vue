@@ -96,7 +96,7 @@
               .col-lg-7
                 .titulo-segundo.color-acento-contenido
                   h2 Importante
-                p Con lo indispensable que resultan el&nbsp;
+                p Con lo indispensable que resulta el&nbsp;
                   i software,&nbsp;
                   | a la hora de gestionar la documentación de todos los procesos realizados o planeados para la verificación o mantenimiento de las tarjetas electrónicas, se presentan los principales proveedores de&nbsp;
                   i software ofimáticos: Office 365, Libreoffice y Google docs.&nbsp;

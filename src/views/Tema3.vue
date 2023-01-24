@@ -82,7 +82,7 @@
       .col-lg-10
         p Pese a que las comparaciones de los datos resultan de gran ayuda en la interpretación de los resultados, no siempre se pueden hacer debido a diversos factores; entre ellos, la falta de equipos similares o la adquisición de un único dispositivo. Dado lo anterior, es muy importante conocer qué tipo de pruebas existen con el fin de poder realizar una correcta interpretación de los datos obtenidos y proceder de la mejor manera.
 
-    h4 Tipos de prueba
+    h4.mb-5 Tipo de prueba
 
     .row.flex.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-10
