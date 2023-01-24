@@ -32,6 +32,8 @@
                 figure.pa-caja-01
                   img(src='@/assets/template/tema01/t1-i7.svg')
 
+    h4 Multímetro
+
     p.mb-5 La primera herramienta que se debe conocer es el multímetro. Este dispositivo es uno de los más frecuentemente utilizados dentro de un laboratorio, dada su capacidad de medir o monitorear múltiples variables eléctricas; de ahí su nombre.
 
     .row.d-flex.justify-content-center.mb-5

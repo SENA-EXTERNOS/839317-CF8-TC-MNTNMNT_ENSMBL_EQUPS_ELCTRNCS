@@ -12,7 +12,7 @@
       .col-lg-8
         p Apreciado aprendiz, bienvenido a este componente formativo, con una temática orientada hacia la reparación de tarjetas electrónicas. Se aprenderá sobre los elementos genéricos y especializados, documentos de procesos, procedimientos técnicos y normativos, entre otros. Finalmente, podrá identificar los procedimientos y técnicas de retrabajo.
 
-        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.        
+        p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:        
       .col-lg-4
         figure(data-aos='zoom-in')
           img(
