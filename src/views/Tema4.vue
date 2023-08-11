@@ -68,21 +68,19 @@
             img(src='@/assets/template/tema04/t4-i11.svg')
 
         .tarjeta.text-black.p-3.bg-acento-contenido-c2(x='9.2%', y='85.5%', numero='')
-          p El multímetro resulta útil a la hora de diagnosticar la posible falla o verificación del estado de la tarjeta electrónica.
+          p Un profesional debe ser capaz de identificar cada una de estas imperfecciones con el fin de poder decidir cuál es el mejor procedimiento para realizar y las herramientas a implementar en cada uno de ellos.
 
         .tarjeta.text-black.p-3.bg-acento-contenido-c2(x='30%', y='85.5%', numero='')
-          p A su vez, el multímetro ofrece la posibilidad de medir el comportamiento de diferentes variables. El dispositivo posee un botón, perilla o selector que permite cambiar de una opción de medida a otra.
+          p En las etapas de diseño y ensamble de una tarjeta electrónica es inevitable que este tipo de dispositivos se expongan a cambios bruscos de temperatura que puedan provocar que algunas piezas puedan levantarse o romperse, adicionalmente, puede ocasionar que algunos componentes o elementos puedan resultar dañados. 
 
         .tarjeta.text-black.p-3.bg-acento-contenido-c2(x='50%', y='85.5%', numero='')
-          p De acuerdo con la opción seleccionada, para medir una tarjeta electrónica, se debe permutar la entrada de las puntas de prueba para una obtención adecuada y segura de los datos.
+          p Es por este motivo que seguir las recomendaciones de cada uno de los fabricantes de componentes electrónicos de acuerdo con las condiciones que se deben asegurar para cuidar el componente a la hora de montarlo sobre la PCB.
 
         .tarjeta.text-black.p-3.bg-acento-contenido-c2(x='70.2%', y='85.5%', numero='')
-          p Cada uno de los fabricantes posee diferentes configuraciones para monitorear o realizar los diferentes procedimientos para los cuales fue diseñado; se recomienda entonces, leer el manual de usuario del fabricante y evitar daños o accidentes dentro del laboratorio de pruebas.
+          p Las diferentes empresas generalmente deben almacenar las tarjetas electrónicas dada la gran cantidad a las cuales se les debe inspeccionar antes de ser usadas, provocando de esta manera la generación de hongos o artefactos producidos por la humedad, situación que produce corrosión, cortocircuitos y defectos en los diferentes componentes.
 
         .tarjeta.text-black.p-3.bg-acento-contenido-c2(x='90.2%', y='85.5%', numero='')
-          p Para ampliar la información sobre los multímetros lo invitamos a consultar en las referencias bibliográficas los documentos:&nbsp;
-            i ¿Qué es un multímetro digital? y Electrónica aplicada:&nbsp;
-            | electricidad, en los que podrá encontrar una definición más precisa y una descripción de las partes u opciones que posee un osciloscopio de forma general.      
+          p Se debe almacenar cada uno de los dispositivos en lugares ventilados y con bajas corrientes de humedad para evitar la producción de estas imperfecciones físicas.     
 
 
     h4 Cambio de componentes
@@ -123,10 +121,10 @@
           
     .row.mb-5
       .col-lg-8.order-2.order-lg-1
-        TabsA.color-secundario.mb-5 
-          .tarjeta.clr-paleYellow.p-4(titulo='Cambios de<br> temperatura')
+        TabsC.color-secundario.mb-5 
+          .tarjeta.clr-paleYellow.p-4(titulo='Cambios de temperatura')
             p Los cambios de temperatura pueden llegar a ocasionar grandes daños dentro de una tarjeta electrónica siendo uno de los más comunes el levantamiento o corte de una pista, al ser este elemento el responsable de comunicar o servir de vía para la corriente eléctrica. Es crucial, resolver este problema antes de proceder con otra actividad dado que, si no se resuelve, la tarjeta será obsoleta y gastaremos tiempo en reparaciones innecesarias.
-          .tarjeta.clr-paleYellow.p-4(titulo='Modificación de<br> la tarjeta')
+          .tarjeta.clr-paleYellow.p-4(titulo='Modificación de la tarjeta')
             p Aunque no es recomendable que un profesional modifique o vulnere la integridad de una tarjeta para poder conectar una pista rota, en ocasiones, dados los altos costos o la desaparición del fabricante, un técnico de mantenimiento debe enfrentarse a este tipo de imprevistos. 
 
           .tarjeta.clr-paleYellow.p-4(titulo='Experticia')

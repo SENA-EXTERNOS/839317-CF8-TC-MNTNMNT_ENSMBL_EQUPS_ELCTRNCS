@@ -78,8 +78,8 @@
 
     p El registro o firmas de voltaje e intensidad, dentro de los diagnósticos de una tarjeta electrónica, resultan una herramienta extremadamente útil dada la importancia que tienen estas dos variables en el funcionamiento de un dispositivo electrónico.
     p.mb-5 Por lo tanto, es fundamental conocer las diferentes propiedades que pueden tener este tipo de señales, dentro de un oscilograma:
-
-    .tarjeta.slyderB_bg_01.p-5.mb-5(data-aos='zoom-in-right')
+    
+    .tarjeta.slyderB_bg_02.p-5.mb-5(data-aos='zoom-in-right')
       SlyderA(tipo='b')
         .row
           .col-md-7.mb-4.mb-md-0.py-5
