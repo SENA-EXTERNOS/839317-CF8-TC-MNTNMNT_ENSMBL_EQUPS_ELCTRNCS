@@ -185,9 +185,7 @@
               .anexo__icono
                 img(src='@/assets/template/icono-link.svg')
               .anexo__texto
-                p
-                strong Enlace web.
-                | Análisis técnico sobre el USO de un osciloscopio automotriz.
+                p #[b Enlace web.] Análisis técnico sobre el USO de un osciloscopio automotriz.
 
       .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos='zoom-in')
         figure

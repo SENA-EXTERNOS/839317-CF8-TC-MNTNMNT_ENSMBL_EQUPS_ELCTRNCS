@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Procedimientos técnicos y normativos
+      h1 Procedimientos y técnicas de retrabajo
 
     .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-11
@@ -74,7 +74,7 @@
           p En las etapas de diseño y ensamble de una tarjeta electrónica es inevitable que este tipo de dispositivos se expongan a cambios bruscos de temperatura que puedan provocar que algunas piezas puedan levantarse o romperse, adicionalmente, puede ocasionar que algunos componentes o elementos puedan resultar dañados. 
 
         .tarjeta.text-black.p-3.bg-acento-contenido-c2(x='50%', y='85.5%', numero='')
-          p Es por este motivo que seguir las recomendaciones de cada uno de los fabricantes de componentes electrónicos de acuerdo con las condiciones que se deben asegurar para cuidar el componente a la hora de montarlo sobre la PCB.
+          p Es por este motivo que es necesario seguir las recomendaciones de cada uno de los fabricantes de componentes electrónicos de acuerdo con las condiciones que se deben asegurar para cuidar el componente a la hora de montarlo sobre la PCB.
 
         .tarjeta.text-black.p-3.bg-acento-contenido-c2(x='70.2%', y='85.5%', numero='')
           p Las diferentes empresas generalmente deben almacenar las tarjetas electrónicas dada la gran cantidad a las cuales se les debe inspeccionar antes de ser usadas, provocando de esta manera la generación de hongos o artefactos producidos por la humedad, situación que produce corrosión, cortocircuitos y defectos en los diferentes componentes.

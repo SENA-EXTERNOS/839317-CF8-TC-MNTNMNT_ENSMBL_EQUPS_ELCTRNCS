@@ -48,7 +48,7 @@
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
           img.img-a.img-t.mb-5(src='@/assets/template/tema03/2.svg')
 
-          p.text-center Resulta muy cómodo, por medio de las firmas digitales de voltaje y corriente, encontrar que secciones de una tarjeta no están funcionando de manera correcta.
+          p.text-center Resulta muy cómodo, por medio de las firmas digitales de voltaje y corriente, encontrar qué secciones de una tarjeta no están funcionando de manera correcta.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-acento-contenido-c3.h-100.p-4
@@ -119,7 +119,7 @@
             numero='2'
           )
             h5 Pruebas de pista y soldadura
-            p De los principales fallos que se producen, después del diseño y ensamble de tarjetas electrónicas, se encuentran los asociados a las pistas y soldaduras.; Estos dos elementos, de la tarjeta electrónica, son los responsables de permitir el paso y circulación de la corriente eléctrica, en un circuito, y se identifican con la ayuda de un multímetro configurado para medir continuidad. Con este tipo de pruebas, se puede verificar si un tramo del circuito se encuentra desconectado (circuito abierto) o si se encuentra en cortocircuito. Pese a que en la gran mayoría de mediciones este tipo de procedimientos es suficiente para la localización del problema, en ocasiones, dada su composición y estructura, resulta difícil realizar este tipo de pruebas sin comprometer la integridad de los demás componentes del dispositivo. En respuesta a este problema, se suele implementar el uso de herramientas que se apoyan en imágenes de rayos x para la visualización de las pistas de manera óptima sin realizar procesos invasivos; lo que reduce, en gran medida, los daños producidos a la hora de verificar el estado de cada pista y soldadura.
+            p De los principales fallos que se producen, después del diseño y ensamble de tarjetas electrónicas, se encuentran los asociados a las pistas y soldaduras. Estos dos elementos, de la tarjeta electrónica, son los responsables de permitir el paso y circulación de la corriente eléctrica, en un circuito, y se identifican con la ayuda de un multímetro configurado para medir continuidad. Con este tipo de pruebas, se puede verificar si un tramo del circuito se encuentra desconectado (circuito abierto) o si se encuentra en cortocircuito. Pese a que en la gran mayoría de mediciones este tipo de procedimientos es suficiente para la localización del problema, en ocasiones, dada su composición y estructura, resulta difícil realizar este tipo de pruebas sin comprometer la integridad de los demás componentes del dispositivo. En respuesta a este problema, se suele implementar el uso de herramientas que se apoyan en imágenes de rayos x para la visualización de las pistas de manera óptima sin realizar procesos invasivos; lo que reduce, en gran medida, los daños producidos a la hora de verificar el estado de cada pista y soldadura.
 
           div(x='37.5%', y='80%', tooltip='Pruebas en circuito', numero='3')
             h5 Pruebas en circuito

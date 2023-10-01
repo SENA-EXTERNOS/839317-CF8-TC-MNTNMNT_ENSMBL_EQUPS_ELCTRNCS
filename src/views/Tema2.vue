@@ -41,7 +41,7 @@
           .col-8
             img(src='@/assets/template/tema02/t2-i3.svg', alt='AvatarTop')
         h2.text-center Recursos necesarios para la intervención
-        p.text-center Se deben contemplar todos los posibles recursos que se van a utilizar a lo largo de la ejecución de proyecto; tales como materiales, equipos, herramientas, componentes, personal, etc.
+        p.text-center Se deben contemplar todos los posibles recursos que se van a utilizar a lo largo de la ejecución del proyecto; tales como: materiales, equipos, herramientas, componentes, personal, etc.
 
       .tarjeta.color-01.p-4
         .row.justify-content-center.mb-3
