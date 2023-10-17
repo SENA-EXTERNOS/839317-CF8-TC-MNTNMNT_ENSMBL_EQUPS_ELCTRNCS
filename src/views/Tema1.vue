@@ -127,7 +127,7 @@
               ) 
         .row
           .col-md-7.mb-4.mb-md-0.py-5
-            h3 Valor rms.
+            h3 Valor rms
             p El valor eficaz de una señal eléctrica se define como el valor cuadrático medio de la magnitud de una variable física. De forma general, podemos ver el valor eficaz de una señal variante en el tiempo como su equivalente continuo.
 
           .col-md-5
